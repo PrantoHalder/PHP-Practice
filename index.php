@@ -1,9 +1,11 @@
-<?php
-echo "hello world";
-$name = "pranto";
-echo $name;
-$array = [1,2,3,4];
-echo '<pre>' ;
-var_dump ($array);
-echo '<pre>' ;
+<?php 
+$title ="PHP is awesome";
+define('WIDTH','1140px');
+define('PREFIX','OPTION');
+define(PREFIX.'_1',1);
+define(PREFIX.'_2',2);
+define(PREFIX.'_3',3);
+define(PREFIX.'_4',3);
+echo PREFIX;
+require 'index.view.php';
 ?>
